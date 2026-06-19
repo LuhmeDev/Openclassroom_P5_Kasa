@@ -1,16 +1,18 @@
 import { Routes, Route } from 'react-router-dom'
-import Nav from './components/Nav'
+import Nav from './components/nav/Nav'
 import Home from './pages/Accueil'
 import About from './pages/About'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Footer/>
     </div>
   )
 }

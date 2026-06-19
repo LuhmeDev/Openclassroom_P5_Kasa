@@ -1,10 +1,13 @@
-import Banner from '../components/Banner'
+import Banner from '../components/banner/Banner'
+import CardsGrid from '../components/cardsgrid/CardsGrid'
+
+import '../CSS/accueil.css'
 
 function Home() {
   return (
-    <div>
-      <Banner />
-      {/* le reste du contenu de la page d'accueil */}
+    <div className="home-container">
+      <Banner/>
+      <CardsGrid/>
     </div>
   )
 }
