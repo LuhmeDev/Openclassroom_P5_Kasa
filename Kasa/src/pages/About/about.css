@@ -1,0 +1,13 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+.about-collapse{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}

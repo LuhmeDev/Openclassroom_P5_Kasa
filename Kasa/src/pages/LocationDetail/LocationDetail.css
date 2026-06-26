@@ -1,0 +1,76 @@
+.Locdetail-container {
+    width: 100%;
+    max-width: 1240px;
+    box-sizing: border-box;
+}
+
+.Locdetail-infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.Locdetail-infos-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Locdetail-infos-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Locdetail-infos-right-owmer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Locdetail-title{
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.Locdetail-location{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Locdetail-tags{
+    background-color: #FF6060;
+    padding: 8px 20px;
+    border-radius: 16px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.Locdetail-container-tags{
+    display: flex;
+    flex: row;
+    gap: 5px;
+}
+
+.Loc-collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Loc-host-picture{
+    border-radius: 100px;
+    height: 64px;
+}
+
+.Loc-host-name{
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+}

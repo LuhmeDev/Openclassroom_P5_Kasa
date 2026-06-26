@@ -1,15 +1,15 @@
 import './banner.css'
 
-function Banner() {
+function Banner({image, alt = "Bannière", title}) {
   return (
     <div className="banner">
       <img
-        src="src\assets\coastal-cliffs.png"
-        alt="Falaises côtières"
+        src={image}
+        alt={alt}
         className="banner-image"
       />
       <div className="banner-overlay" />
-      <h1 className="banner-title">Chez vous, partout et ailleurs</h1>
+      {title && <h1 className="banner-title">{title}</h1>}
     </div>
   )
 }
