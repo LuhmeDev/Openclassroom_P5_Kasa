@@ -8,9 +8,8 @@ import './LocationDetail.css'
 function LocationDetail() {
   const { id } = useParams()
   const logement = Data.find((item) => item.id === id)
-  const [firstName, lastName] = logement.host.name.split(" ");
-
   if (!logement) return <Navigate to="*" replace />
+  const [firstName, lastName] = logement.host.name.split(" ");
 
   return (
     <div className="Locdetail-container">
